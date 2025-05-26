@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8dd8ff;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 60%;
+  margin: 80px auto;
+  border: 3px solid grey;
+  border-radius: 10px;
+  gap: 10px;
+  flex-direction: row !important;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 10px 10px black;
+  transition: 1s;
+}
+
+.container:hover{
+    box-shadow: 0 20px 20px black;
+}
+img {
+  height: 200px;
+  filter: grayscale(1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.info {
+  width: 65%;
+}
+
+.details {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.details span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.social_info {
+  background-color: rgb(212, 211, 211);
+  display: flex;
+  height: 70px;
+  text-align: center;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+p {
+  margin: 0 10px 10px 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+button {
+  padding: 8px 115px;
+  font-size: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.chat {
+  background-color: white;
+  border: 3px solid blue;
+}
+
+.follow {
+  background-color: blue;
+  color: white;
+}
